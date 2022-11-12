@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+    <link rel="stylesheet" href="/src/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Sliding Header</title>
+</head>
+<body>
+<div id="left-side" class="side">
+    <h2 class="title">
+        This is the
+        <span class="fancy">left</span>
+        side
+    </h2>
+</div>
+<div id="right-side" class="side">
+    <h2 class="title">
+        This is the
+        <span class="fancy">right</span>
+        side
+    </h2>
+</div>
+<script type="module" src="/src/main.ts"></script>
+</body>
 </html>
