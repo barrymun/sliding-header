@@ -22,14 +22,15 @@ body {
   place-items: center;
   overflow: hidden;
   position: absolute;
+  text-align: center;
 }
 
 .side .title {
   color: white;
   font-family: "Rubik", sans-serif;
-  font-size: 8vw;
-  margin: 0px 15vw;
-  width: 70vw;
+  font-size: 7.5vw;
+  margin: 0px 10vw;
+  width: 80vw;
 }
 
 .side .fancy {
@@ -62,6 +63,10 @@ body {
 
 #right-side .fancy {
   color: var(--blue);
+}
+
+.info {
+  font-size: 4vw;
 }
 
 .info-left {
