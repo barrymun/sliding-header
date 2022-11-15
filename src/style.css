@@ -63,3 +63,11 @@ body {
 #right-side .fancy {
   color: var(--blue);
 }
+
+.info-left {
+  color: white;
+}
+
+.info-right {
+  color: var(--dark);
+}
